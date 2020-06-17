@@ -10,7 +10,7 @@ import "./styles.scss";
 function App() {
   return (
     <Router>
-      <div className="App"></div>
+      <div className="App">
       <Switch>
         <PrivateRoute exact path='/protected' component={BubblePage} />
           <Route exact path="/" component={Login} />
